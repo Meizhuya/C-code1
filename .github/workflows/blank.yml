@@ -46,3 +46,16 @@ int main()
 	system("pause");
 	return 0;
 }
+
+
+
+continue语句：跳过当前程序以下的操作，执行下一步循环
+
+	for (int i = 1; i <=100; i++)
+	{
+		if (i % 2 == 0)
+		{
+			continue;
+		}
+		cout << i << endl;
+	}
