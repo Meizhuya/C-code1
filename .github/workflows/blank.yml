@@ -81,3 +81,29 @@ int main()
 	system("pause");
 	return 0;
 }
+
+查找最大算法
+
+#include<iostream>
+#include<string>
+using namespace std;
+#include<ctime>
+
+int main()
+
+{
+	int arr[5] = { 300,200,350,400,390 };
+	int max = 0;
+	for (int i = 0; i < 5; i++)
+	{
+		if (arr[i] > max)
+		{
+			max = arr[i];
+		}
+
+		//cout << arr[i] << endl;
+	}
+	cout << "最重的梅猪为：" << max << endl;
+	system("pause");
+	return 0;
+}
